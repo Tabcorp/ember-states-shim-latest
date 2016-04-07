@@ -416,7 +416,7 @@ Ember.State.reopenClass({
 */
 
 var get = Ember.get, set = Ember.set, fmt = Ember.String.fmt;
-var arrayForEach = Ember.ArrayPolyfills.forEach;
+var arrayForEach = Array.prototype.forEach;
 /**
   A Transition takes the enter, exit and resolve states and normalizes
   them:
